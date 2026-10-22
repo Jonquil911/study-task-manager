@@ -92,18 +92,6 @@ Effect cleanup prevents responses from previous selections from replacing the cu
 
 The API creates a task with a name and description first. The application then saves its additional fields through `updateItem()`.
 
-## Deployment
-
-You can deploy the project using [Vercel](https://vercel.com/):
-
-1. Push the project to a GitHub repository.
-2. Import the repository into Vercel.
-3. Select **Vite** as the framework preset.
-4. Use `npm run build` as the build command and `dist` as the output directory.
-5. Deploy and open the generated application URL.
-
-Because the API stores data in browser `localStorage`, tasks are saved separately in each browser rather than in a shared online database.
-
 ## Troubleshooting
 
 If the page is blank, check the terminal and the browser developer console for errors. Make sure `npm install` has completed and restart the development server with `npm run dev`.
