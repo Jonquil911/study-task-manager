@@ -1,0 +1,32 @@
+export const initialDataSample = [
+  {
+    id: 1,
+    name: "Prepare React assignment",
+    description: "Practice useEffect and asynchronous requests.",
+    subject: "React",
+    priority: "High",
+    dueDate: "2026-11-01",
+    estimatedHours: 3,
+    status: "To Do",
+  },
+  {
+    id: 2,
+    name: "Complete Go checkpoint",
+    description: "Finish the Go project and run tests.",
+    subject: "Golang",
+    priority: "High",
+    dueDate: "2026-11-04",
+    estimatedHours: 5,
+    status: "To Do",
+  },
+  {
+    id: 3,
+    name: "Practice IELTS Writing",
+    description: "Write a Task 2 essay and review mistakes.",
+    subject: "English",
+    priority: "Medium",
+    dueDate: "2026-11-06",
+    estimatedHours: 2,
+    status: "Completed",
+  },
+];
