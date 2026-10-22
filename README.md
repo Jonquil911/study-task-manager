@@ -2,7 +2,7 @@
 
 Study Task Manager is a React application for organizing study assignments. It uses a simulated asynchronous API to load, create, update, and delete tasks. Task data is stored in the browser's `localStorage` through the API.
 
-## Features
+## Features      
 
 - View a list of study tasks and load task details asynchronously.
 - Create, edit, and delete tasks.
